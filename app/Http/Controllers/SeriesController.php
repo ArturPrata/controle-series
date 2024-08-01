@@ -11,8 +11,7 @@ class SeriesController extends Controller
         $series = [
             'Punisher',
             'Lost',
-            'Gres\'s Anatomy',
-            'Breaking Bad'
+            'Grey\'s Anatomy'
         ];
 
         $html = '<ul>';
