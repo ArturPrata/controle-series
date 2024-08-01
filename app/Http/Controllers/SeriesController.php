@@ -16,6 +16,7 @@ class SeriesController extends Controller
         ];
 
 
-        return view('listar-series', compact('series'));
+        //return view('listar-series-blade', compact('series'));
+        return view('listar-series') -> with('series', $series);
     }
 }
