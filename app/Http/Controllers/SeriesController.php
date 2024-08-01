@@ -17,6 +17,6 @@ class SeriesController extends Controller
 
 
         //return view('listar-series-blade', compact('series'));
-        return view('listar-series') -> with('series', $series);
+        return view('series.index') -> with('series', $series);
     }
 }
